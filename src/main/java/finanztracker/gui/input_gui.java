@@ -38,7 +38,7 @@ public class input_gui {
         });
 
         ComboBox<String> comboBox = new ComboBox<>();
-        comboBox.getItems().addAll("Miete", "Freizeit", "Sonstiges", "Lebensmittel", "Transport");
+        comboBox.getItems().addAll("Miete", "Freizeit", "Gehalt", "Lebensmittel", "Transport");
         comboBox.setValue("Miete");
 
         Button btnOk = new Button("Okay");

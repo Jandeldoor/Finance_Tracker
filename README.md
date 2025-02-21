@@ -1,8 +1,8 @@
-Projectname: Finanztracker;
+Projectname: Finanztracker
 
-Author: Jan Eric 'Jandeldoor' Max;
+Author: Jan Eric 'Jandeldoor' Max
 
-Version: 1.0;
+Version: 1.0
 
 Description:
 Ein kleines Finanztracker Programm, entwickelt in IntelliJ mithilfe von Java, JavaFX, SQLite, Maven und CSS. Das Programm dient zur einfachen und schnellen Übersicht über Finanzen, Ein- und Ausgaben, dargestellt in einem Säulendiagramm.

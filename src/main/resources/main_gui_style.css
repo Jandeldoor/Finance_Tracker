@@ -1,0 +1,105 @@
+/*main_gui_style.css*/
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-insets: 0px 0px 0px -100px;
+    -fx-border: none;
+    -fx-cursor: hand;
+    -fx-alignment: center-left;
+    position: relativ;
+}
+
+.icon-button {
+    -fx-background-color: transparent;
+    -fx-fill: white;
+    -fx-font-size: 18px;
+    -fx-border: none;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+    position: relativ;
+}
+
+.check-box:hover {
+    -fx-cursor: hand;
+}
+
+#off-button:hover {
+    -fx-fill: darkred; /* Setzt die Farbe des Icons auf Rot */
+}
+
+#filter-button:hover {
+    -fx-fill: lightgray;
+    -fx-background-color: transparent;
+}
+
+#reset-button:hover {
+    -fx-fill: darkred;
+}
+
+#clear-button:hover {
+    -fx-fill: yellow;
+}
+
+#search-button:hover {
+    -fx-fill: SteelBlue;
+}
+
+#income-button:hover {
+    -fx-fill: lime;
+}
+
+#spending-button:hover {
+    -fx-fill: firebrick;
+}
+
+.pane-background {
+    -fx-background-color: radial-gradient(center 50% 50%,radius 59% , dimgray, black);
+}
+
+.bar-income {
+    -fx-bar-fill: lime;
+}
+
+.bar-expense {
+    -fx-bar-fill: firebrick;
+}
+
+.bar.chart-background {
+    -fx-background-color: transparent;
+}
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.chart-content {
+    -fx-background-color: transparent; /* Hintergrund des gesamten Charts */
+}
+
+.chart {
+    -fx-background-color: transparent; /* Hintergrund des übergeordneten Containers */
+}
+
+
+.chart-vertical-grid-lines, .chart-horizontal-grid-lines {
+    -fx-stroke: transparent; /* Gitterlinien ausblenden */
+}
+
+.axis {
+    -fx-tick-label-fill: transparent; /* Zahlen an den Achsen ausblenden */
+    -fx-tick-mark-stroke: transparent; /* Striche an den Achsen ausblenden */
+    -fx-border-color: transparent; /* Achsenrahmen transparent */
+    -fx-background-color: transparent;
+}
+
+.axis-label {
+    -fx-text-fill: transparent;
+}
+
+.default-color0.chart-bar { -fx-bar-fill: lime; }
+.default-color1.chart-bar { -fx-bar-fill: red; }
+
+.text {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}

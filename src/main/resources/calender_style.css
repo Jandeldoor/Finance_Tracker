@@ -1,0 +1,50 @@
+.pane-background {
+    -fx-background-color: radial-gradient(center 50% 50%,radius 59% , dimgray, black);
+}
+
+
+.date-picker .arrow-button {
+    -fx-background-color: #40414F; /* Anthrazit */
+    -fx-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+}
+.date-picker .arrow-button:hover {
+    -fx-background-color: lightgray; /* Pink beim Hover */
+}
+
+.date-picker .arrow-button .graphic {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+}
+
+
+/* Jahr & Monat im Kalender */
+.date-picker-popup .month-year-pane {
+    -fx-background-color: #40414F; /* Dunkelgrau (wie Chat-Eingabefeld) */
+}
+
+.date-picker-popup .label {
+    -fx-text-fill: white; /* Weißer Text für Monat und Jahr */
+}
+
+
+.date-picker-popup {
+    -fx-background-color: #343541;
+    -fx-text-fill: black;
+    -fxborder-color: #40414F;
+}
+
+.date-cell {
+    -fx-background-color: #343541;
+    -fx-text-fill: white;
+}
+.date-cell:hover {
+    -fx-background-color: lightgray; /* Hover-Farbe */
+    -fx-text-fill: black;
+}
+.date-cell:selected {
+    -fx-background-color: #FF4081; /* Farbe für das ausgewählte Datum */
+    -fx-text-fill: white;
+}
+

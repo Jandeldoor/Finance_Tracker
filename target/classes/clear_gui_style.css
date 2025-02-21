@@ -1,0 +1,23 @@
+.pane-background {
+    -fx-background-color: radial-gradient(center 50% 50%,radius 59% , dimgray, black);
+}
+
+.text-area {
+    -fx-border-color: transparent;
+    -fx-control-inner-background: dimgray;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+#erase-button:hover {
+    -fx-text-fill: darkred;
+}
+
+.button:hover {
+    -fx-text-fill: gray;
+}
